@@ -1,0 +1,17 @@
+.container{
+    text-align: center;
+    width: 100%;
+    padding: 32px;
+}
+.container h3{
+    font-size: 32px;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 32px;
+    justify-content: space-around;
+}

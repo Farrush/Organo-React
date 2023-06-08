@@ -1,0 +1,31 @@
+.card{
+    width: 280px;
+    margin: 0 8px;
+}
+.imageDiv{
+    border-radius:10px 10px 0px 0px;
+}
+.imageDiv img{
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    width:100px;
+    position: relative;
+    bottom: -50px;
+}
+.descDiv{
+    background-color: #FFF;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    padding-top:90px;
+    border-radius: 0px 0px 10px 10px;
+    padding-bottom: 40px;
+}
+.descDiv h4{
+    color: #6278F7;
+    font-size: 24px;
+    line-height: 22px;
+}
+
+.descDiv h5{
+    color: #0E0e0e;
+    font-size: 20px;
+}
