@@ -12,9 +12,6 @@ function Footer(){
             <div className='logo'>
                 <img src='/imagens/logo.png'/>
             </div>
-            <div>
-                Desenvolvido por Alura.
-            </div>
         </footer>
     )
 }
