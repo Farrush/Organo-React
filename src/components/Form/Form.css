@@ -11,3 +11,21 @@
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.08);
     padding: 36px 54px;
 }
+.formulario h4{
+    font-weight: 300;
+    color: #1e1e1e;
+    font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+    .formulario{
+        margin: 60px 0;
+    }
+    .formulario form{
+        width: 90vw;
+        padding: 16px 36px;
+    }
+    .formulario h4{
+        font-size: 14px;
+        line-break: anywhere;
+    }
+}

@@ -29,3 +29,30 @@
     color: #0E0e0e;
     font-size: 20px;
 }
+
+@media only screen and (max-width: 768px) {
+    .card{
+        width: 140px;
+        margin: 0 4px;
+    }
+    .imageDiv{
+        border-radius:5px 5px 0px 0px;
+    }
+    .imageDiv img{
+        width:80px;
+        bottom: -40px;
+    }
+    .descDiv{
+        padding-top:40px;
+        border-radius: 0px 0px 5px 5px;
+        padding-bottom: 20px;
+    }
+    .descDiv h4{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    .descDiv h5{
+        font-size: 12px;
+    }
+}

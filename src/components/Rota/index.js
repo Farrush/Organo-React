@@ -3,6 +3,7 @@ import './Rota.css'
 
 const Rota = (props)=>{
     return(
+
         props.campeoes.length > 0 && <section style={{"backgroundColor":'#'+props.corSecundaria}} className={'container'}>
             <h3 style={{"borderBottom":'solid 4px #'+props.corPrimaria}}>{props.rota}</h3>
             <div className='cards'>

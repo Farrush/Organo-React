@@ -49,6 +49,7 @@ export const Form = (props)=>{
                     value={imagem} 
                     inputAlterado={valor => setImagem(valor)} 
                 />
+                <h4>Sugestão: https://www.mobafire.com/images/champion/square/<strong>nomedesejado</strong>.png</h4>
                 <List 
                     label="Rota" 
                     itens={props.rotas}

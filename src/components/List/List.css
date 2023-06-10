@@ -1,6 +1,5 @@
 .list{
     margin: 24px 0;
-
 }
 .list label{
     display: block;
@@ -15,3 +14,17 @@
     font-size: 24px;
     padding: 24px;
 }
+
+@media only screen and (max-width: 768px) {
+    .list{
+        margin: 12px 0;
+    }
+    .list label{
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .list select{
+        font-size: 16px;
+        padding: 12px;
+    }
+  }
