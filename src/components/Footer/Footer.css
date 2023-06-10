@@ -1,8 +1,9 @@
 .footer{
     background-color: #6278F7;
-    height: 25vh;
+    height: 28vh;
     color: white;
     font-size: 32px;
+    padding: 12px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -10,22 +11,36 @@
 .footer .icones{
     display: flex;
     justify-content: space-evenly;
-    width:20%;
+    width:30%;
 }
 .icones a img{
-    width: 48px;
-    height: 48px;
+    width: 82px;
+    height: 82px;
     filter: brightness(0) invert(1);
+}
+.footer h5{
+    font-size: 24px;
 }
 
 @media only screen and (max-width: 768px) {
     .footer{
         font-size: 16px;
+        padding:8px;
         flex-direction: column;
     }
+    .footer h5{
+        font-size: 20px;
+        text-align: center;
+    }
     .footer .icones{
-        display: flex;
-        justify-content: space-evenly;
         width:100%;
+    }
+    .icones a img{
+        width: 56px;
+        height: 56px;
+        margin: 0 4px;
+    }
+    .footer .logo img{
+        height: 50px;
     }
 }

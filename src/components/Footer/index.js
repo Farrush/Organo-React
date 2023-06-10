@@ -2,12 +2,14 @@ import './Footer.css'
 function Footer(){
     return(
         <footer className='footer'>
-            <div className='icones'>
-                <a target="_blank" href="https://www.facebook.com"><img src="/imagens/fb.png" alt="Ícone do Facebook"/></a>
-                <a target="_blank" href="https://twitter.com"><img src="/imagens/tw.png" alt="Ícone do Twitter"/></a>
-                <a target="_blank" href="https://www.github.com/Farrush"><img src="/imagens/github.png" alt="Ícone do Github"/></a>
-            </div>
             <div>
+                <h5>Meus links:</h5>
+                <div className='icones'>
+                    <a target="_blank" href="https://www.github.com/Farrush"><img src="/imagens/github.png" alt="Ícone do Github"/></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/rafael-carrenho-taranto-87a494231/"><img src="/imagens/lkd.png" alt="Ícone do Linkedin"/></a>
+                </div>
+            </div>
+            <div className='logo'>
                 <img src='/imagens/logo.png'/>
             </div>
             <div>
