@@ -1,5 +1,6 @@
 .colaborador {
     width: 280px;
+    position: relative;
 }
 
 .colaborador .cabecalho {
@@ -7,10 +8,10 @@
     border-radius: 10px 10px 0px 0px;
 }
 .colaborador img {
-    width: 100px;
+    width: 60%;
     border-radius: 50%;
     position: relative;
-    bottom: -50px;
+    bottom: -90px;
 }
 
 .colaborador .rodape {
@@ -23,15 +24,20 @@
 
 .colaborador .rodape h4 {
     color: #6278F7;
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 2.6vh;
+    line-height: 2.9vh;
     font-weight: bold;
     margin-bottom: 8px;
 }
 
 .colaborador .rodape h5 {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 2.5vh;
+    line-height: 2.8vh;
     color: #212121;
     padding: 0 16px;
+}
+.colaborador .delete{
+    position: absolute;
+    right: -10px;
+    top: -10px;
 }
